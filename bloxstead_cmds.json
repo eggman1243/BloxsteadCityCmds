@@ -29,7 +29,7 @@
   {"cmd": ".freeze <target>", "copyCmd": ".freeze", "usage": "others/all/playername/me", "desc": "Freezes the specified target."},
   {"cmd": ".loopkill <target>", "copyCmd": ".loopkill", "usage": "others/all/playername/me", "desc": "Continuously kills the target(s) until stopped."},
   {"cmd": ".unloopkill <target>", "copyCmd": ".unloopkill", "usage": "target", "desc": "Stops the loopkill effect on the target(s)."},
-  {"cmd": ".darth <target>", "copyCmd": ".darth", "usage": "all/playername/others", "desc": "Transforms the target into Darth Vader."},
+  {"cmd": ".darth <target>", "copyCmd": ".darth", "usage": "all/playername/others/me", "desc": "Transforms the target into Darth Vader."},
   {"cmd": ".riot", "copyCmd": ".riot", "usage": "-", "desc": "Starts a riot of hostile NPCs near the bank and spawns peacekeepers."},
   {"cmd": ".addcandy <target>", "copyCmd": ".addcandy", "usage": "target", "desc": "Adds candy to the target (Halloween only)."},
   {"cmd": ".kick <target>", "copyCmd": ".kick", "usage": "username/all/others", "desc": "Kicks the target player from the server."},
@@ -37,5 +37,11 @@
   {"cmd": ".ban <username>", "copyCmd": ".ban", "usage": "username", "desc": "Bans the target player for 7 days."},
   {"cmd": ".addcash <target>", "copyCmd": ".addcash", "usage": "all/others/username/me", "desc": "Adds cash to the target's balance."},
   {"cmd": ".subtractcash <target>", "copyCmd": ".subtractcash", "usage": "all/others/username/me", "desc": "Removes cash from the target's balance."},
-  {"cmd": ".setcash <target>", "copyCmd": ".setcash", "usage": "all/others/username/me", "desc": "Sets the target's cash balance to the specified amount."}
+  {"cmd": ".setcash <target>", "copyCmd": ".setcash", "usage": "all/others/username/me", "desc": "Sets the target's cash balance to the specified amount."},
+  {"cmd": ".watch <playername / random>", "copyCmd": ".watch", "usage": "playername/random", "desc": "Spectates the specified player."},
+  {"cmd": ".unwatch", "copyCmd": ".unwatch", "usage": "-", "desc": "Stops spectating a player."},
+  {"cmd": ".view <playername / random>", "copyCmd": ".view", "usage": "playername/random", "desc": "Spectates the specified player."},
+  {"cmd": ".unview", "copyCmd": ".unview", "usage": "-", "desc": "Stops spectating a player."},
+  {"cmd": ".dt <target>", "copyCmd": ".dt", "usage": "all/playername/others/me", "desc": "Transforms the target into a Death Trooper."},
+  {"cmd": ".hammer <target>", "copyCmd": ".hammer", "usage": "all/playername/others/me", "desc": "Gives the target a hammer."}
 ]
