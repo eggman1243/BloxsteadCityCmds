@@ -44,5 +44,6 @@
   {"cmd": ".unview", "copyCmd": ".unview", "usage": "-", "desc": "Stops spectating a player."},
   {"cmd": ".dt <target>", "copyCmd": ".dt", "usage": "all/playername/others/me", "desc": "Transforms the target into a Death Trooper."},
   {"cmd": ".hammer <target>", "copyCmd": ".hammer", "usage": "all/playername/others/me", "desc": "Gives the target a hammer."},
-  {"cmd": ".cmds / .cmdslist / .commands", "copyCmd": ".cmds", "usage": "-", "desc": "Opens the commands gui."}
+  {"cmd": ".cmds / .cmdslist / .commands", "copyCmd": ".cmds", "usage": "-", "desc": "Opens the commands gui."},
+  {"cmd": ".pike <target>", "copyCmd": ".pike", "usage": "all/playername/me", "desc": "Gives the target a Guard Pike."}
 ]
