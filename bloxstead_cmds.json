@@ -46,5 +46,7 @@
   {"cmd": ".hammer <target>", "copyCmd": ".hammer", "usage": "all/playername/others/me", "desc": "Gives the target a hammer."},
   {"cmd": ".cmds / .cmdslist / .commands", "copyCmd": ".cmds", "usage": "-", "desc": "Opens the commands gui."},
   {"cmd": ".pike <target>", "copyCmd": ".pike", "usage": "all/playername/me/others", "desc": "Gives the target a Guard Pike."},
-  {"cmd": ".rg <target>", "copyCmd": ".rg", "usage": "all/playername/me/others", "desc": "Morphs the target into a Red Guard."}
+  {"cmd": ".rg <target>", "copyCmd": ".rg", "usage": "all/playername/me/others", "desc": "Morphs the target into a Red Guard."},
+  {"cmd": ".sg <target>", "copyCmd": ".sg", "usage": "all/playername/me/others", "desc": "Spawns a sovereign guard. They only guard EggHeadStuff"},
+  {"cmd": ".eg <target>", "copyCmd": ".eg", "usage": "all/playername/me/others", "desc": "Spawns a Egg guard. They only guard EggHeadStuff"}
 ]
